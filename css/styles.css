@@ -1,0 +1,182 @@
+body{
+  font-family: "Montserrat"
+}
+h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.7;
+  }
+
+h2{
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+p{
+    color: #8f8f8f
+}
+/* heading */
+.big-heading{
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Bold";
+}
+.colored-section{
+  background-color: #ef8172;
+}
+.white-section{
+  background-color: white;
+}
+
+/* title section*/
+#title .container-fluid{
+    background-color: #AEFEFF;
+    text-align: left;
+    padding: 3% 15%;
+}
+.container-fluid{
+  padding: 3% 15%;
+  text-align: center;
+
+}
+/* navbar */
+.navbar-brand{
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: left;
+  font-family: "ubunty"
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-family: "Montserrat-light"
+  right: 40%;
+}
+.title-images{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+/* btn Section */
+ .download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* features section */
+#features{
+  padding: 7% 15%;
+  position: relative;
+  line-height: 1.5;
+}
+.feature-box {
+  text-align: center;
+  margin: 0px;
+  ;
+}
+ .feature-titles{
+   font-size: 1.5rem;
+  font-weight: 900;
+ }
+
+ /* icon section */
+
+  .icon-features{
+    text-align: center;
+    padding: 5%;
+  }
+  .icon:hover{
+    color: red;
+  }
+
+  /* Testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+.dog-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.text{
+  padding: 5%;
+}
+
+/* //press */
+#press {
+  text-align: center;
+}
+/* Pricing */
+.press-logo{
+  width: 15%;
+  margin: 20px  20px 10%;
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-sec{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+/* media for mobil */
+
+@media(max-width:1028px ){
+
+#title{
+  text-align: center;
+}
+  .title-images{
+    position: static;
+    transform: rotate(0);
+  }
+.cta-section{
+  margin: 5px 5px 0:
+}
+
+/* footer btn */
+.btn{
+  margin: 5% 3% 5% 0;
+  text-align: center;
+}
+
+/* footer section
+ */#footer{
+  text-align: center;
+  background-color: white;
+  padding: 7% 15%;
+}
+
+/* social media icon */
+.social-icon{
+  margin: 20px 10px;
+}
+.media-icon{
+  margin: 20px 20px 20px;
+}
+.btn-Footer{
+  margin: 10px;
+}
